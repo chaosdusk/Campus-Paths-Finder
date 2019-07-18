@@ -1,0 +1,7 @@
+CreateGraph graph1
+# adds two nodes with an edge in between
+AddNode graph1 node1
+AddNode graph1 node2
+AddEdge graph1 node1 node2 label1
+# checks result
+ListChildren graph1 node1

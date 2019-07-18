@@ -1,0 +1,5 @@
+# load small graph
+LoadGraph small staffSuperheroes.tsv
+
+# test to self
+FindPath small Ernst-the-Bicycling-Wizard Ernst-the-Bicycling-Wizard

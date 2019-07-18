@@ -1,0 +1,7 @@
+created graph graph1
+# adds two nodes with an edge in between
+added node node1 to graph1
+added node node2 to graph1
+added edge label1 from node1 to node2 in graph1
+# checks result
+the children of node1 in graph1 are: node2(label1)

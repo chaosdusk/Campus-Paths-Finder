@@ -1,0 +1,17 @@
+CreateGraph graph
+
+AddNode graph node1
+AddNode graph node2
+AddNode graph node3
+AddNode graph node4
+AddNode graph node5
+AddNode graph node6
+
+AddEdge graph node1 node2 4.0
+AddEdge graph node1 node3 5.0
+AddEdge graph node2 node4 6.0
+AddEdge graph node3 node5 4.0
+AddEdge graph node4 node6 4.0
+AddEdge graph node5 node6 4.0
+
+FindPath graph node1 node6

@@ -1,0 +1,2 @@
+LoadGraph graph shortestPathTest.tsv
+FindPath graph LexLeast unconnected

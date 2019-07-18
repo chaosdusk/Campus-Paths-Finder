@@ -1,0 +1,21 @@
+created graph graph
+
+added node node1 to graph
+added node node2 to graph
+added node node3 to graph
+added node node4 to graph
+added node node5 to graph
+added node node6 to graph
+
+added edge 4.000 from node1 to node2 in graph
+added edge 5.000 from node1 to node3 in graph
+added edge 6.000 from node2 to node4 in graph
+added edge 4.000 from node3 to node5 in graph
+added edge 4.000 from node4 to node6 in graph
+added edge 4.000 from node5 to node6 in graph
+
+path from node1 to node6:
+node1 to node3 with weight 5.000
+node3 to node5 with weight 4.000
+node5 to node6 with weight 4.000
+total cost: 13.000

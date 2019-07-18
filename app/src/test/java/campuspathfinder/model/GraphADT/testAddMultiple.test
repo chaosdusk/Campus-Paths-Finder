@@ -1,0 +1,16 @@
+CreateGraph graph
+#Add nodes
+AddNode graph node1
+AddNode graph node2
+AddNode graph node3
+AddNode graph node4
+AddNode graph node5
+#Add edges
+AddEdge graph node1 node2 label
+AddEdge graph node1 node3 abel
+AddEdge graph node2 node4 bela
+AddEdge graph node2 node5 abel
+#Confirm
+ListNodes graph
+ListChildren graph node1
+ListChildren graph node2

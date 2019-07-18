@@ -1,0 +1,16 @@
+created graph graph
+#Add nodes
+added node node1 to graph
+added node node2 to graph
+added node node3 to graph
+added node node4 to graph
+added node node5 to graph
+#Add edges
+added edge label from node1 to node2 in graph
+added edge abel from node1 to node3 in graph
+added edge bela from node2 to node4 in graph
+added edge abel from node2 to node5 in graph
+#Confirm
+graph contains: node1 node2 node3 node4 node5
+the children of node1 in graph are: node2(label) node3(abel)
+the children of node2 in graph are: node4(bela) node5(abel)
