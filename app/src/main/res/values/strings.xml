@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CampusPathFinder</string>
+    <string name="press">Press</string>
+    <string name="map_of_campus">map of campus</string>
+    <string name="button">pressMeButton</string>
+    <string name="show">show</string>
+    <string name="show_path">Show Path</string>
+    <string name="reset">Reset</string>
+</resources>

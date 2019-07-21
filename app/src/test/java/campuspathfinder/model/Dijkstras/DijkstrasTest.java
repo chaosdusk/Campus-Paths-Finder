@@ -20,7 +20,7 @@ public class DijkstrasTest {
 
 	@Test
 	public void buildGraphTest() throws MalformedDataException {
-		Graph<String, Double> graph = DijkstrasAlgorithm.buildGraph("../cse331-19wi-tane1999/src/test/"
+		Graph<String, Double> graph = DijkstrasAlgorithm.buildGraph("../app/src/test/"
 				+ "resources/hw7/data/staffSuperheroes.tsv");
 		Iterator<GraphNode<String, Double>> itr = graph.getSortedNodes().iterator();
 		GraphNode<String, Double> currNode = itr.next();
@@ -147,7 +147,7 @@ public class DijkstrasTest {
 	
 	@Test
 	public void shortestPathToSelfTest() throws MalformedDataException {
-		Graph<String, Double> graph = DijkstrasAlgorithm.buildGraph("../Campus-Paths-Finder/app/src/test/"
+		Graph<String, Double> graph = DijkstrasAlgorithm.buildGraph("../app/src/test/"
 				+ "resources/hw7/data/shortestPathTest.tsv");
 		List<GraphEdge<String, Double>> path = DijkstrasAlgorithm.shortestPath(graph, ernst, ernst);
 		assertFalse(path == null);
@@ -156,7 +156,7 @@ public class DijkstrasTest {
 	
 	@Test
 	public void shortestPathUnconnectedTest() throws MalformedDataException {
-		Graph<String, Double> graph = DijkstrasAlgorithm.buildGraph("../Campus-Paths-Finder/app/src/test/"
+		Graph<String, Double> graph = DijkstrasAlgorithm.buildGraph("../app/src/test/"
 				+ "resources/hw7/data/shortestPathTest.tsv");
 		List<GraphEdge<String, Double>> path = DijkstrasAlgorithm.shortestPath(graph, ernst, "unconnected");
 		assertEquals(null, path);
